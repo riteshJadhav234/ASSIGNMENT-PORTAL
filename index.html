@@ -1,4 +1,3 @@
-<!-- updated by Ritesh -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,10 +11,17 @@
         }
     </style>
 </head>
+<script>
+    function togglePending() {
+        const section = document.getElementById("pendingAssignments");
+        section.style.display = section.style.display === "none" ? "block" : "none";
+    }
+</script>
+
 <body class="bg-gray-100">
     <!-- Header -->
     <header class="bg-blue-600 text-white p-4">
-        <h1 class="text-2xl font-bold">Educational ASSIGNMENT Portal </h1>
+        <h1 class="text-2xl font-bold">Educational ASSIGNMENT Portal for pharmacy</h1>
         <nav class="mt-2">
             <ul class="flex space-x-4">
                 <li><a href="#" class="hover:underline">Home</a></li>
@@ -26,7 +32,8 @@
         </nav>
     </header>
 
-    <!-- Main Content -->
+    <h2 class="text-2xl font-bold text-blue-700 mb-4">✅ Uploaded Assignments</h2>
+    <!-- Main Content --> 
     <main class="container mx-auto p-6">
         <!-- Loop through assignments -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -47,9 +54,6 @@ This assignment elaborates on the SOPs for various routine and critical activiti
                     <a href="#" class="bg-gray-100 text-gray-800 px-4 py-2 rounded-lg hover:bg-gray-200 transition flex items-center">
                         Solution Guide
                     </a>
-                    <button class="bg-yellow-600 text-white px-4 py-2 rounded-lg hover:bg-yellow-700 transition">
-                        Share Project
-                    </button>
                 </div>
             </div>
 
@@ -62,7 +66,7 @@ They are especially useful for elderly patients, chronic disease cases, and thos
 These aids improve treatment results and reduce the risk of missed or incorrect doses.</p>
 
 ...,
-                <iframe src="Assignment_2_Medication_Reminder_Aids_Formatted_4to5Pages.pdf"width="100%" height="50px" class="border rounded-lg shadow mb-4"></iframe>
+                <iframe src="Assignment_2_Medication_Reminder_Aids_Formatted_4to5Pages.pdf"width="100%" height="125px" class="border rounded-lg shadow mb-4"></iframe>
                 <div class="flex space-x-4">
                     <a href="Assignment_2_Medication_Reminder_Aids_Formatted_4to5Pages.docx" download class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center">
                         Download Assignment
@@ -78,9 +82,10 @@ These aids improve treatment results and reduce the risk of missed or incorrect 
 
             <!-- Assignment 3 -->
             <div class="bg-white rounded-lg shadow-md p-6 mb-8">
-                <h3 class="text-xl font-semibold text-gray-800">Assignment 3: Topic Title</h3>
-                <p class="text-gray-600 mb-2 mt-2">Subject: Subject Name</p>
-                <p class="text-gray-600 mb-4">In India, many people cannot afford costly branded medicines. Because of this, some stop taking treatment or skip doses, which affects their health. To solve this problem, the Indian government started promoting generic medicines, which are much cheaper and work the same as branded ones. One major step was launching the Jan Aushadhi scheme, which provides affordable, quality medicines to all people, especially the poor and needy.</p>
+                <h3 class="text-xl font-semibold text-gray-800">Assignment 3:: Jan Aushadhi and Other Generic Medicine Initiatives in India</h3>
+                <p class="text-gray-600 mb-2 mt-2">Subject: Community Pharmacy and Management (2057)</p>
+                <p class="text-gray-600 mb-4">In India, many people skip treatment due to the high cost of branded medicines.To solve this, the government promotes generic medicines that are cheaper but equally effective.The Jan Aushadhi scheme provides affordable quality medicines, especially for the poor.</p>
+               <iframe src="Assignment_3_Jan_Aushadhi_Extended.pdf"width="100%" height="125px" class="border rounded-lg shadow mb-4"></iframe>
                 <div class="flex space-x-4">
                     <a href="Assignment_3_Jan_Aushadhi_Extended.docx"download class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center">
                         Download Assignment
@@ -96,11 +101,12 @@ These aids improve treatment results and reduce the risk of missed or incorrect 
 
             <!-- Assignment 4 -->
             <div class="bg-white rounded-lg shadow-md p-6 mb-8">
-                <h3 class="text-xl font-semibold text-gray-800">Assignment 4: Topic Title</h3>
-                <p class="text-gray-600 mb-2 mt-2">Subject: Subject Name</p>
-                <p class="text-gray-600 mb-4">Brief description of the assignment.</p>
+                <h3 class="text-xl font-semibold text-gray-800">Assignment 4: : Drug Facts Labels of US FDA</h3>
+                <p class="text-gray-600 mb-2 mt-2">Subject: Pharmacology</p>
+                <p class="text-gray-600 mb-4">The Drug Facts label is a critical component of over-the-counter (OTC) medications in the United States. Mandated by the U.S. Food and Drug Administration (FDA), this label provides essential information that helps consumers use medications safely and effectively. It includes standardized sections such as active ingredients, uses, warnings, directions, and inactive ingredients.</p>
+               <iframe src="Assignment_4_Drug_Facts_Labels_US_FDA_Extended.pdf"width="100%" height="125px" class="border rounded-lg shadow mb-4"></iframe>
                 <div class="flex space-x-4">
-                    <a href="Assignment4.docx" download class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center">
+                    <a href="Assignment_4_Drug_Facts_Labels_US_FDA_Extended.docx" download class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center">
                         Download Assignment
                     </a>
                     <a href="#" class="bg-gray-100 text-gray-800 px-4 py-2 rounded-lg hover:bg-gray-200 transition flex items-center">
@@ -114,17 +120,17 @@ These aids improve treatment results and reduce the risk of missed or incorrect 
 
             <!-- Assignment 5 -->
             <div class="bg-white rounded-lg shadow-md p-6 mb-8">
-                <h3 class="text-xl font-semibold text-gray-800">Assignment 5: Topic Title</h3>
-                <p class="text-gray-600 mb-2 mt-2">Subject: Subject Name</p>
-                <p class="text-gray-600 mb-4">Brief description of the assignment.</p>
+                <h3 class="text-xl font-semibold text-gray-800">Assignment 5: : Medicines and Meals – Before or After Food</h3>
+                <p class="text-gray-600 mb-2 mt-2">Subject:  Pharmacology</p>
+                <p class="text-gray-600 mb-4">Medicines must be taken at the right time—before or after food—for proper effect and safety.Wrong timing may reduce effectiveness or cause side effects like stomach upset..</p>
+               <iframe src="Assignment_5_Medicines and Meals – Before or After Food.pdf"width="100%" height="125px" class="border rounded-lg shadow mb-4"></iframe>
                 <div class="flex space-x-4">
-                    <a href="Assignment5.docx" download class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center">
+                    <a href="Assignment_5_Medicines and Meals – Before or After Food.docx" download class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center">
                         Download Assignment
                     </a>
                     <a href="#" class="bg-gray-100 text-gray-800 px-4 py-2 rounded-lg hover:bg-gray-200 transition flex items-center">
                         Solution Guide
                     </a>
-                    <input type="file" class="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition" />
                     <button class="bg-yellow-600 text-white px-4 py-2 rounded-lg hover:bg-yellow-700 transition">
                         Share Project
                     </button>
@@ -133,24 +139,29 @@ These aids improve treatment results and reduce the risk of missed or incorrect 
 
             <!-- Assignment 6 -->
             <div class="bg-white rounded-lg shadow-md p-6 mb-8">
-                <h3 class="text-xl font-semibold text-gray-800">Assignment 6: Topic Title</h3>
-                <p class="text-gray-600 mb-2 mt-2">Subject: Subject Name</p>
-                <p class="text-gray-600 mb-4">Brief description of the assignment.</p>
+                <h3 class="text-xl font-semibold text-gray-800">Assignment 6: Pre-clinical Studies in New Drug Development</h3>
+                <p class="text-gray-600 mb-2 mt-2">Subject:  Pharmacology</p>
+                <p class="text-gray-600 mb-4">Pre-clinical studies test a drug's safety, effects, and behavior in the body using lab and animal models.
+They are essential to ensure human trials are safe and ethically acceptable.</p>
+                <iframe src="Assignment_6_Pre-clinical Studies in New Drug Development.pdf"width="100%" height="125px" class="border rounded-lg shadow mb-4"></iframe>
                 <div class="flex space-x-4">
-                    <a href="Assignment6.docx" download class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center">
+                    <a href="Assignment_6_Pre-clinical Studies in New Drug Development.docx" download class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition flex items-center">
                         Download Assignment
                     </a>
                     <a href="#" class="bg-gray-100 text-gray-800 px-4 py-2 rounded-lg hover:bg-gray-200 transition flex items-center">
                         Solution Guide
                     </a>
-                    <input type="file" class="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition" />
                     <button class="bg-yellow-600 text-white px-4 py-2 rounded-lg hover:bg-yellow-700 transition">
                         Share Project
                     </button>
                 </div>
             </div>
 
-            <!-- Assignment 7 -->
+               <!-- Assignment 7 -->
+                <button onclick="togglePending()" class="text-2xl font-bold text-red-600 mb-4 focus:outline-none hover:underline">
+          ⏳ Show Pending Unuploaded Assignments
+          </button>
+        <div id="pendingAssignments" style="display: none;">
             <div class="bg-white rounded-lg shadow-md p-6 mb-8">
                 <h3 class="text-xl font-semibold text-gray-800">Assignment 7: Topic Title</h3>
                 <p class="text-gray-600 mb-2 mt-2">Subject: Subject Name</p>
@@ -162,7 +173,6 @@ These aids improve treatment results and reduce the risk of missed or incorrect 
                     <a href="#" class="bg-gray-100 text-gray-800 px-4 py-2 rounded-lg hover:bg-gray-200 transition flex items-center">
                         Solution Guide
                     </a>
-                    <input type="file" class="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition" />
                     <button class="bg-yellow-600 text-white px-4 py-2 rounded-lg hover:bg-yellow-700 transition">
                         Share Project
                     </button>
@@ -320,3 +330,4 @@ These aids improve treatment results and reduce the risk of missed or incorrect 
                     </button>
                 </div>
             </div>
+         </div>
